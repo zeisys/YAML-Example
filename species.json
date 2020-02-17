@@ -2,49 +2,75 @@
   "Kingdom": {
     "Name": "Animal",
     "Phylum": {
-      "Name" : "Chordata",
-      "Class" : {
-        "Name" : "Birds",
-        "Order" : {
-          "Name" : "Accipitriformes",
-          "Family" : {
-            "Name" : "Accipitridae",
-            "Genus" : {
-              "Name" : "Haliaeetus",
-              "Species" : [{
-                "Name" : "Leucocephalus",
-                "Common Name" :"Bald Eagle",
-                "Wing Span" : {
-                  "Unit" : "Meter",
-                  "Value" : 2.3
+      "Name": "Chordata",
+      "Class": {
+        "Name": "Birds",
+        "Order": {
+          "Name": "Accipitriformes",
+          "Family": {
+            "Name": "Accipitridae",
+            "Genus": {
+              "Name": "Haliaeetus",
+              "Species": [
+                {
+                  "Name": "Leucocephalus",
+                  "Common Name": "Bald Eagle",
+                  "Wing Span": {
+                    "Unit": "Meter",
+                    "Value": 2.3
+                  },
+                  "Conservation Status": {
+                    "Classification System": "IUCN",
+                    "Version": 3.1,
+                    "Value": "Least Concern"
+                  }
                 },
-                "Conservation Status" : {
-                  "Classification System" : "IUCN",
-                  "Version" : 3.1,
-                  "Value" : "Least Concern"
+                {
+                  "Name": "Pelagicus",
+                  "Common Name": "Steller's sea eagle",
+                  "Wing Span": {
+                    "Unit": "Inch",
+                    "Value": 74
+                  },
+                  "Conservation Status": {
+                    "Classification System": "IUCN",
+                    "Version": 3.1,
+                    "Value": "Vulnerable"
+                  },
+                  "Weight": {
+                    "Unit": "Pound",
+                    "Value": 13.78
+                  }
+                },
+                {
+                  "Name": "Albicilla",
+                  "Common Name": "White tailed eagle",
+                  "Wing Span": {
+                    "Unit": "Meter",
+                    "Value": 2.2
+                  },
+                  "Conservation Status": {
+                    "Classification System": "IUCN",
+                    "Version": 3.1,
+                    "Value": "Least Concern"
+                  },
+                  "Weight": {
+                    "Unit": "Kilogram",
+                    "Value": 6.3
+                  },
+                  "Alias": [
+                    {
+                      "Alias 1": "Ern",
+                      "Alias 2": "Erne",
+                      "Alias 3": "Gray sea eagle",
+                      "Alias 4": "Eurasian sea eagle"
+                    }
+                  ]
                 }
-              },
-                 {
-                "Name" : "Pelagicus",
-                "Common Name" :"Steller's sea eagle",
-                "Wing Span" : {
-                  "Unit" : "Inch",
-                  "Value" : 74
-                },
-                "Conservation Status" : {
-                  "Classification System" : "IUCN",
-                  "Version" : 3.1,
-                  "Value" : "Vulnerable"
-                },
-                 "Weight" : {
-                  "Unit" : "Pound",
-                  "Value" : 13.78
-                }}]
+              ]
             }
-            
           }
         }
-        
       }
     }
   }
