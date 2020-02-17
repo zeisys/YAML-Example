@@ -1,1 +1,13 @@
+Phylum : Non-Chordata
+Phylum : Chordata
+  Class : Mammals
+  Class : Reptiles
+  Class : Amphibians
+  Class : Pisces
+  Class : Avians
+    Order:	Accipitriformes
+      Family:	Accipitridae
+        Genus:	Haliaeetus
+          Species:	H. leucocephalus
+      
 
