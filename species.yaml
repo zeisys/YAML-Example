@@ -1,121 +1,108 @@
 ---
-Name: Organism
-Kingdom: 
- - 
-   Name: Animal
-  Phylum: 
-   Name: Chordata
-   Class: 
-    - 
-   Name: Mammalia
-     Order: 
-      - 
-   Name: Artiodactyla
-       Family: 
-        Name: Platanistidae
-        Genus: 
-         Name: Platanista
-         Species: 
-          Name: Gangetica
-          "Common Name": "South asian river dolphin"
-          "Conservation Status": 
-           "Classification System": IUCN
-           Version: 3.1
-           Value: Endangered
-      - 
-   Name: Carnivora
-       "Sub-Order": 
-        Name: Feliformia
-        Family: 
-         Name: Felidae
-         "Sub-Family": 
-          Name: Pantherinae
-          Genus: 
-           Name: Panthera
-           Species: 
-            Name: Tigris
-            "Sub-Species": 
-             Name: Tigris
-             "Common Name": "Royal bengal tiger"
-             "Conservation Status": 
+Kingdom:
+ - Name: Animal
+   Phylum:
+    Class:
+     - Name: Mammalia
+       Order:
+        - Family:
+           Genus:
+            Name: Platanista
+            Species:
+             "Common Name": "South asian river dolphin"
+             "Conservation Status":
               "Classification System": IUCN
-              Version: 3.1
               Value: Endangered
-    - 
-   Name: Reptilia
-     Order: 
-      Name: Crocodilia
-      Family: 
-       Name: Gavialidae
-       Genus: 
-        Name: Gavialis
-        Species: 
-         Name: Gangeticus
-         "Common Name": Gharial
-         "Conservation Status": 
-          "Classification System": IUCN
-          Version: 3.1
-          Value: "Critically Endangered"
-    - 
-   Name: Aves
-     Order: 
-      Name: Accipitriformes
-      Family: 
-       Name: Accipitridae
-       Genus: 
-        - 
-   Name: Gyps
-         Species: 
-          Name: Indicus
-          "Common Name": "Indian vulture"
-          "Conservation Status": 
-           "Classification System": IUCN
-           Version: 3.1
-           Value: "Critically Endangered"
-        - 
-   Name: Haliaeetus
-         Species: 
-          - 
-   Name: Leucocephalus
-           "Common Name": "Bald Eagle"
-           "Wing Span": 
-            Unit: Meter
-            Value: 2.3
-           "Conservation Status": 
+              Version: 3.1
+             Name: Gangetica
+           Name: Platanistidae
+          Name: Artiodactyla
+        - Name: Carnivora
+          Sub-Order:
+           Family:
+            Name: Felidae
+            Sub-Family:
+             Genus:
+              Name: Panthera
+              Species:
+               Name: Tigris
+               Sub-Species:
+                "Common Name": "Royal bengal tiger"
+                "Conservation Status":
+                 "Classification System": IUCN
+                 Value: Endangered
+                 Version: 3.1
+                Name: Tigris
+             Name: Pantherinae
+           Name: Feliformia
+     - Name: Reptilia
+       Order:
+        Family:
+         Genus:
+          Name: Gavialis
+          Species:
+           "Common Name": Gharial
+           "Conservation Status":
             "Classification System": IUCN
+            Value: "Critically Endangered"
             Version: 3.1
-            Value: "Least Concern"
-          - 
-   Name: Pelagicus
-           "Common Name": "Steller's sea eagle"
-           "Wing Span": 
-            Unit: Inch
-            Value: 74
-           "Conservation Status": 
-            "Classification System": IUCN
-            Version: 3.1
-            Value: Vulnerable
-           Weight: 
-            Unit: Pound
-            Value: 13.78
-          - 
-   Name: Albicilla
-           "Common Name": "White tailed eagle"
-           "Wing Span": 
-            Unit: Meter
-            Value: 2.3
-           "Conservation Status": 
-            "Classification System": IUCN
-            Version: 3.1
-            Value: "Least Concern"
-           Weight: 
-            Unit: Kilogram
-            Value: 6.3
-           Alias: 
-            - 
-   "Alias 1": Ern
-             "Alias 2": Erne
-             "Alias 3": "Gray sea eagle"
-             "Alias 4": "Eurasian sea eagle"
- - 
-   Name: Plant
+           Name: Gangeticus
+         Name: Gavialidae
+        Name: Crocodilia
+     - Name: Aves
+       Order:
+        Family:
+         Genus:
+          - Name: Gyps
+            Species:
+             "Common Name": "Indian vulture"
+             "Conservation Status":
+              "Classification System": IUCN
+              Value: "Critically Endangered"
+              Version: 3.1
+             Name: Indicus
+          - Name: Haliaeetus
+            Species:
+             - "Common Name": "Bald Eagle"
+               "Conservation Status":
+                "Classification System": IUCN
+                Value: "Least Concern"
+                Version: 3.1
+               Name: Leucocephalus
+               "Wing Span":
+                Unit: Meter
+                Value: 2.3
+             - "Common Name": "Steller's sea eagle"
+               "Conservation Status":
+                "Classification System": IUCN
+                Value: Vulnerable
+                Version: 3.1
+               Name: Pelagicus
+               Weight:
+                Unit: Pound
+                Value: 13.78
+               "Wing Span":
+                Unit: Inch
+                Value: 74
+             - Alias:
+                - "Alias 1": Ern
+                  "Alias 2": Erne
+                  "Alias 3": "Gray sea eagle"
+                  "Alias 4": "Eurasian sea eagle"
+               "Common Name": "White tailed eagle"
+               "Conservation Status":
+                "Classification System": IUCN
+                Value: "Least Concern"
+                Version: 3.1
+               Name: Albicilla
+               Weight:
+                Unit: Kilogram
+                Value: 6.3
+               "Wing Span":
+                Unit: Meter
+                Value: 2.3
+         Name: Accipitridae
+        Name: Accipitriformes
+    Name: Chordata
+ - Name: Plant
+Name: Organism
