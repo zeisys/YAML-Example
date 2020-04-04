@@ -1,6 +1,6 @@
 {
-  "Type": "Mapper",
-  "Version": "2010-09-01",
+  "Type": "Animal Map",
+  "Version": "2020-04-04",
   "Provider": "WWF",
   "report-type": "vulnerability-list",
   "report-format": "pdf",
