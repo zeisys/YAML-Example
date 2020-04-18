@@ -1,0 +1,51 @@
+{
+    "Name": "Statistics of Animals",
+    "Canis": {
+        "Lupus": {
+            "Common Name": "Wolf",
+            "Number": "713"
+        }
+    },
+    "Equus": {
+        "Ferus": {
+            "Common Name": "Wild Horse",
+            "Number": "1203"
+        },
+        "Africanus": {
+            "Common Name": "Wild Donkey",
+            "Number": "881"
+        }
+    },
+    "Panthera": {
+        "Leo": {
+            "Common Name": "Lion",
+            "Number": "529"
+        },
+        "Tigris": {
+            "Common Name": "Tiger",
+            "Number": "362"
+        },
+        "Pardus": {
+            "Common Name": "Leopard",
+            "Number": "913"
+        },
+        "Onca": {
+            "Common Name": "Jaguar",
+            "Number": "549"
+        }
+    },
+    "Ursus": {
+        "Arctos": {
+            "Common Name": "Grizzly Bear",
+            "Number": "1044"
+        },
+        "Maritimus": {
+            "Common Name": "Polar Bear",
+            "Number": "413"
+        },
+        "Thibetanus": {
+            "Common Name": "Asian Black Bear",
+            "Number": "677"
+        }
+    }
+}
