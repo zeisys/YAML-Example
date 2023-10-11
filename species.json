@@ -132,6 +132,13 @@
                       {
                         "Name": "Albicilla",
                         "Common Name": "White tailed eagle",
+                        "Geography": [
+                          "Asia",
+                          "Africa",
+                          {
+                            "Atlanta": "Zoo"
+                          }
+                        ],
                         "Wing Span": {
                           "Unit": "Meter",
                           "Value": 2.3
@@ -146,12 +153,10 @@
                           "Value": 6.3
                         },
                         "Alias": [
-                          {
-                            "Alias 1": "Ern",
-                            "Alias 2": "Erne",
-                            "Alias 3": "Gray sea eagle",
-                            "Alias 4": "Eurasian sea eagle"
-                          }
+                          "Ern",
+                          "Erne",
+                          "Gray sea eagle",
+                          "Eurasian sea eagle"
                         ]
                       }
                     ]
