@@ -17,7 +17,7 @@
                     "Name": "Platanista",
                     "Species": {
                       "Name": "Gangetica",
-                      "Common Name": "South asian river dolphin",
+                      "Common Name": "South asian, river dolphin",
                       "Conservation Status": {
                         "Classification System": "IUCN",
                         "Version": 3.1,
@@ -136,7 +136,7 @@
                           "Asia",
                           "Africa",
                           {
-                            "Atlanta": "Zoo"
+                            "USA": "Zoological Gardens, Atlanta, GA"
                           }
                         ],
                         "Wing Span": {
