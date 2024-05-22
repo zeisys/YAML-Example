@@ -1,0 +1,173 @@
+//Prompt: Generate endangered species data - include taxonomical details (family, order, genus, kingdom, species), physical characteristics (weight, speed, height), other characteristics (known predators, food habits, habitat), IUCN details. Produce output as a JSON . Ensure there are no more than 5.
+[
+    {
+        "Taxonomical Details": {
+            "Family": "Felidae (Cat Family)",
+            "Order": "Carnivora",
+            "Genus": "Panthera",
+            "Species": "Tiger (Panthera tigris)"
+        },
+        "Physical Characteristics": {
+            "Weight": {
+                "Minimum": "200 pounds",
+                "Maximum": "675 pounds"
+            },
+            "Speed": {
+                "Minimum": "40 mph",
+                "Maximum": "50 mph"
+            },
+            "Height": {
+                "Minimum": "3 feet",
+                "Maximum": "10 feet"
+            }
+        },
+        "Other Characteristics": {
+            "Known Predators": "Lions, Hyenas, Leopards",
+            "Food Habits": "Carnivore",
+            "Habitat": "Forests, Grasslands, Swamps"
+        },
+        "IUCN Details": {
+            "Critically Endangered": true,
+            "Endangered": true,
+            "Vulnerable": true,
+            "Near Threatened": false,
+            "Least Concern": false
+        }
+    },
+    {
+        "Taxonomical Details": {
+            "Family": "Canidae (Dog Family)",
+            "Order": "Carnivora",
+            "Genus": "Canis",
+            "Species": "Gray Wolf (Canis lupus)"
+        },
+        "Physical Characteristics": {
+            "Weight": {
+                "Minimum": "50 pounds",
+                "Maximum": "150 pounds"
+            },
+            "Speed": {
+                "Minimum": "40 mph",
+                "Maximum": "60 mph"
+            },
+            "Height": {
+                "Minimum": "2 feet",
+                "Maximum": "4 feet"
+            }
+        },
+        "Other Characteristics": {
+            "Known Predators": "Humans, Bears, Eagles",
+            "Food Habits": "Carnivore",
+            "Habitat": "Tundra, Forests, Grasslands"
+        },
+        "IUCN Details": {
+            "Critically Endangered": false,
+            "Endangered": true,
+            "Vulnerable": true,
+            "Near Threatened": false,
+            "Least Concern": false
+        }
+    },
+    {
+        "Taxonomical Details": {
+            "Family": "Ursidae (Bear Family)",
+            "Order": "Carnivora",
+            "Genus": "Ursus",
+            "Species": "Polar Bear (Ursus maritimus)"
+        },
+        "Physical Characteristics": {
+            "Weight": {
+                "Minimum": "500 pounds",
+                "Maximum": "1,500 pounds"
+            },
+            "Speed": {
+                "Minimum": "20 mph",
+                "Maximum": "30 mph"
+            },
+            "Height": {
+                "Minimum": "6 feet",
+                "Maximum": "8 feet"
+            }
+        },
+        "Other Characteristics": {
+            "Known Predators": "Humans, Wolves",
+            "Food Habits": "Omnivore",
+            "Habitat": "Arctic Ice"
+        },
+        "IUCN Details": {
+            "Critically Endangered": true,
+            "Endangered": true,
+            "Vulnerable": true,
+            "Near Threatened": false,
+            "Least Concern": false
+        }
+    },
+    {
+        "Taxonomical Details": {
+            "Family": "Acinonychidae (Wasp Family)",
+            "Order": "Hymenoptera",
+            "Genus": "Vespula",
+            "Species": "Bald Eagle (Haliaeetus leucocephalus)"
+        },
+        "Physical Characteristics": {
+            "Weight": {
+                "Minimum": "7 pounds",
+                "Maximum": "15 pounds"
+            },
+            "Speed": {
+                "Minimum": "30 mph",
+                "Maximum": "40 mph"
+            },
+            "Height": {
+                "Minimum": "2 feet",
+                "Maximum": "3 feet"
+            }
+        },
+        "Other Characteristics": {
+            "Known Predators": "Owls, Falcons, Coyotes",
+            "Food Habits": "Omnivore",
+            "Habitat": "Coastal areas, lakes, rivers"
+        },
+        "IUCN Details": {
+            "Critically Endangered": false,
+            "Endangered": true,
+            "Vulnerable": true,
+            "Near Threatened": false,
+            "Least Concern": false
+        }
+    },
+    {
+        "Taxonomical Details": {
+            "Family": "Rhinocerotidae (Rhino Family)",
+            "Order": "Perissodactyla",
+            "Genus": "Rhinoceros",
+            "Species": "Black Rhino (Diceros bicornis)"
+        },
+        "Physical Characteristics": {
+            "Weight": {
+                "Minimum": "1,700 pounds",
+                "Maximum": "3,200 pounds"
+            },
+            "Speed": {
+                "Minimum": "20 mph",
+                "Maximum": "30 mph"
+            },
+            "Height": {
+                "Minimum": "4 feet",
+                "Maximum": "6 feet"
+            }
+        },
+        "Other Characteristics": {
+            "Known Predators": "Lions, Hyenas, Humans",
+            "Food Habits": "Herbivore",
+            "Habitat": "Savannas, Grasslands"
+        },
+        "IUCN Details": {
+            "Critically Endangered": true,
+            "Endangered": true,
+            "Vulnerable": true,
+            "Near Threatened": false,
+            "Least Concern": false
+        }
+    }
+]
